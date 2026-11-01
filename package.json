@@ -1,0 +1,20 @@
+{
+  "name": "payroll-and-attendance-system",
+  "version": "1.0.0",
+  "description": "Full-Stack Payroll and Attendance Management System",
+  "type": "module",
+  "scripts": {
+    "start": "node start.js",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "seed": "cd server && npm run seed",
+    "build:client": "cd client && npm run build"
+  },
+  "keywords": [
+    "payroll",
+    "attendance",
+    "hr-management"
+  ],
+  "author": "",
+  "license": "ISC"
+}
